@@ -486,6 +486,12 @@ config BR2_LINUX_KERNEL_NEEDS_HOST_PAHOLE
 	  such as "BTF: .tmp_vmlinux.btf: pahole (pahole) is not
 	  available".
 
+config BR2_LINUX_KERNEL_NEEDS_MSTAR_WORKAROUND
+	bool "needs mstar workaround"
+	help
+	  Mstar did some bizare things with the uboot in some devices.
+	  This runs the script necessary to embed the DTB
+
 # Linux extensions
 source "linux/Config.ext.in"
 
