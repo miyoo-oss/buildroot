@@ -39,7 +39,7 @@ SDL2_CONF_OPTS += \
 	--disable-hidapi-joystick \
 	--disable-hidapi-libusb \
 	--disable-joystick-virtual \
-	--disable-render-d3d
+	--disable-render-d3d \
 	--disable-oss
 
 SDL2_CONF_OPTS += \
